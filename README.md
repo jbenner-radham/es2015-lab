@@ -1,2 +1,2 @@
-# es2015-lab
-A research repo for various ES2015 project implementation concepts.
+# es2015-labs
+A research repo for various ~~ES6~~ ES2015 project implementation labs.

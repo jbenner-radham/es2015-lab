@@ -1,0 +1,19 @@
+{
+  "name": "buble-lab",
+  "version": "0.0.0",
+  "description": "A test lab for compiling ES2015 via Buble.",
+  "main": "index.js",
+  "devDependencies": {
+    "buble": "^0.14.0"
+  },
+  "engines": {
+    "node": "~4.5"
+  },
+  "scripts": {
+    "prepublish": "buble src -o dist -m",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "James Benner",
+  "license": "MIT",
+  "private": true
+}
