@@ -1,0 +1,25 @@
+{
+  "name": "es2015-labs",
+  "version": "0.0.0",
+  "description": "A collection of research labs for compiling ES2015.",
+  "main": "index.js",
+  "engines": {
+    "node": "~4.5"
+  },
+  "scripts": {
+    "clean": "rm -rf labs/{babel,buble,flow,typescript}/{dist,node_modules}",
+    "install": "./install-labs.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jbenner-radham/es2015-labs.git"
+  },
+  "author": "James Benner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jbenner-radham/es2015-labs/issues"
+  },
+  "homepage": "https://github.com/jbenner-radham/es2015-labs#readme",
+  "private": true
+}
