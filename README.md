@@ -16,8 +16,8 @@ $ npm run-script clean
 
 Dependency Comparison
 ---------------------
-| Babel     | Bublé    | TypeScript |
-| --------- | -------- | ---------- |
-| v6.18.0   | v0.14.0  | v2.0.6     |
-| 272 Files | 15 Files | 2 Files    |
-| 26M       | 3.9M     | 18M        |
+| Babel       | Bublé      | TypeScript |
+| ----------- | ---------- | ---------- |
+| v6.18.0     | v0.14.0    | v2.0.6     |
+| 272 Modules | 15 Modules | 2 Modules  |
+| 26M         | 3.9M       | 18M        |
