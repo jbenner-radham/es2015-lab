@@ -7,9 +7,9 @@ else
 fi
 
 for dir in $(ls labs); do
-    if [ -f "labs/${dir}/package.json" ]; then
-        echo "Installing \"${dir}\" lab with ${PKG_MGR}..."
-        (cd "labs/${dir}" && ${PKG_MGR} install)
-    	echo "\n"
-    fi
+	if [ -f "labs/${dir}/package.json" ]; then
+		echo "Installing \"${dir}\" lab with ${PKG_MGR}..."
+		(cd "labs/${dir}" && ${PKG_MGR} install)
+		echo "\n"
+	fi
 done

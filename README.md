@@ -1,6 +1,6 @@
 ES2015 Labs
 ===========
-A research repo for various ~~ES6~~ ES2015 project implementation labs.
+A research repo for various ~~ES6+~~ ES2015+ project implementation labs.
 
 Installation
 ------------
